@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Questionnaire</title>
+        
+        <script type="text/javascript" src="jquery.js"></script>          
+        <script type="text/javascript" src="select2.js"></script>     
+        
+
+        <link rel="stylesheet" type="text/css" href="index-style.css">
+            
+    </head>
+    
+    <body>
+        
+        <div class="introduction-section">
+            <h1>Website Review Survey/Questionnaire</h1>
+            <p class = "introduction">
+                <a href="http://arngren.net/">Here</a> you can find an example of a website with a lacking UI. Use the image and explore the site to answer the questions below.
+            </p>
+            <div class="img-zoom-container">
+              <a href="http://arngren.net/">
+                <img href="http://arngren.net/"id="myimage" src="websiteImage.png" width="100%" alt="Bad Website Design">  
+              </a>
+            </div>
+        </div>
+        
+        
+        
+        <div class="QuestionnaireForm">
+            <form>
+                <h2>User Information</h2>
+                <div class="user-information">
+                    <p>First Name:</p><input type = "text" name = "firstname"><br>
+                    <p>Last Name:</p><input type = "text" name = "lastname"><br>
+                    <p>Student Number:</p><input type = "text" name = "lastname"><br>
+                </div>
+                <br><br>
+                <hr>
+                
+                <h2>Questions</h2>
+                <div class="main-questions">
+                    <p>
+                        If you were a potential customer, would the UI of this site deter you?<br>
+                    </p>
+                    <input type="radio" name = "deterred" value='yes'>Yes<br>
+                    <input type="radio" name = "deterred" value='no'>No<br>
+                    <br>
+
+                    <p>
+                        Which UI Goal is <b>least complete</b> on this website?
+                        (Choose One)<br>
+                    </p>
+                    <select name="goal-missing">
+                        <option value = "functionality">Proper Functionality</option>
+                        <option value = "consistency">Consistency</option>
+                        <option value = "efficiency">Efficiency</option>
+                        <option value = "usability">Usability</option>
+                        <option value = "reliability">Reliability</option>
+                        <option value = "security and data integrity">Security and Data Integrity</option>
+                    </select><br>
+                    <br>
+
+                    <p>
+                        Which UI Goals <b>are</b> present on this website.<br>
+                    </p>
+                    <select multiple="multiple" name="goals-existing">
+                        <option value = "functionality">Proper Functionality</option>
+                        <option value = "consistency">Consistency</option>
+                        <option value = "efficiency">Efficiency</option>
+                        <option value = "usability">Usability</option>
+                        <option value = "reliability">Reliability</option>
+                        <option value = "security and data integrity">Security and Data Integrity</option>
+                    </select>
+                         (Hold CTRL/⌘ to select more than one choice)<br>
+                    <br>
+
+                    <p>
+                        Which elements of UI design <b>need the most work</b> on this website,<br>
+                        and how would you set about changing them?<br>
+                        (Give a <b>high level approach</b>, syntax/language independent)<br>
+                    </p>
+                    <textarea name="suggested-changes" class = "text-areas">
+                    </textarea><br>
+                    <br>
+
+                    <p>
+                        Below, write any extra observations or comments that you have made.
+                    </p>
+                    <textarea class = "text-areas">
+                    </textarea><br>
+                    <br>
+                </div>
+                <hr><br>
+                
+
+                <button type="button">Submit Answers</button>
+            
+            </form><br>
+            <br>
+        </div>
+        
+        
+        <footer>
+            <p>
+                Author: Ahmad El Masri<br>
+                <a class="github" href="https://github.com/1AhmadElmasri">GitHub</a>
+            </p>
+        </footer>
+    </body>
+</html>

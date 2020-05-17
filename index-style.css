@@ -1,0 +1,77 @@
+div.QuestionnaireForm{
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+    display:block;
+    width: 75%;
+    background-color:8896AB;
+    color:8896AB;
+    
+}
+
+a{
+   color: #C5D5E4;
+}
+
+a.github{
+   color: #063d80;
+}
+
+
+p{
+    font-family: "Arial", Helvetica, sans-serif;
+    margin-bottom: 2px;
+}
+
+div.main-questions{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    width:80%;
+}
+
+h1{
+    margin-left: auto;
+    margin-right:auto;
+    width:75%;
+    font-family: "Arial", Helvetica, sans-serif;
+    color:azure;
+}
+
+h2{
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+p.introduction{
+    margin-left: auto;
+    margin-right:auto;
+    width:75%;
+    color:azure;
+}
+
+div.user-information{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    width:80%;
+}
+
+div.introduction-section{
+    background-color: #466362;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:-5px;
+    overflow:auto;
+    display:block;
+    width: 100%;
+}
+
+div.img-zoom-container{
+    margin-left: auto;
+    margin-right:auto;
+    text-align: :center;
+    justify-content: center;
+    width:85%;
+    color:azure;
+}
+
